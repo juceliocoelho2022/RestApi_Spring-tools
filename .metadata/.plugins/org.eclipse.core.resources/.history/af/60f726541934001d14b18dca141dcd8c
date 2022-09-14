@@ -1,0 +1,5 @@
+package com.juceliocoelho.restapi.repository;
+
+public interface ClienteRepository {
+
+}

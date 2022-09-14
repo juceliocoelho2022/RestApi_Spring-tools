@@ -1,0 +1,22 @@
+package com.juceliocoelho.restapi.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.juceliocoelho.restapi.model.Cliente;
+import com.juceliocoelho.restapi.repository.ClienteRepository;
+
+@RestController
+@RequestMapping("/clientes")
+public class ClienteController {
+
+	private ClienteRepository clientRepository;
+	
+	@GetMapping
+	public List<Cliente> listar() {
+		
+	}
+}
