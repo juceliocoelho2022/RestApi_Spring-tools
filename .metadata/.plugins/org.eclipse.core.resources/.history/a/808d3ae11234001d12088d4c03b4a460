@@ -1,0 +1,5 @@
+package com.juceliocoelho.restapi.controller;
+
+public class ClienteController {
+
+}

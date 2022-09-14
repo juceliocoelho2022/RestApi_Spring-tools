@@ -1,0 +1,8 @@
+package com.juceliocoelho.restapi.model;
+
+public class Cliente {
+
+	
+	private Long id;
+	private String nome;
+}

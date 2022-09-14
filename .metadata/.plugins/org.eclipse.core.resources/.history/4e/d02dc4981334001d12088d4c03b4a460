@@ -1,0 +1,5 @@
+package com.juceliocoelho.restapi.model;
+
+public class Cliente {
+
+}
